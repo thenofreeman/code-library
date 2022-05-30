@@ -9,7 +9,7 @@
 
 #+name: bubble-sort-cpp
 #+begin_src C++ :main no
-void bubbleSort(int* items, int itemcount)
+void bubbleSort(const int* items, const int& itemcount)
 {
     for (int low{0}; low < itemcount-1; ++low)
     {
