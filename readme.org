@@ -12,4 +12,5 @@
 - [[./algorithms/factorial.org][Factorial]] (cpp)
   + Iterative
   + Recursive
+- [[./algorithms/selection-sort.org][Selection Sort]] (cpp)
 * [[./data-structures.org][Data Structures]]
