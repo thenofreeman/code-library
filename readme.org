@@ -4,8 +4,8 @@
 - [[#algorithms][Algorithms]]
 - [[#data-structures][Data Structures]]
 
-* Algorithms
-- Binary Search (Cpp)
+* [[./algorithms][Algorithms]]
+- [[./algorithms/binary-search.org][Binary Search]] (cpp)
   + Iterative
   + Recursive
-* Data Structures
+* [[./data-structures.org][Data Structures]]
