@@ -1,0 +1,27 @@
+#+title: Bubble Sort
+
+* Contents :toc:
+- [[#pseudocode][Pseudocode]]
+- [[#cpp][Cpp]]
+
+* Pseudocode
+* Cpp
+
+#+name: bubble-sort-cpp
+#+begin_src C++ :main no
+void bubbleSort(int* items, int itemcount)
+{
+    for (int low{0}; low < itemcount-1; ++low)
+    {
+        for (int min{0}; min < itemcount-low-1; ++min)
+        {
+            if(items[min] > items[min+1])
+            {
+                int temp = items[min];
+                items[min] = items[min+1];
+                items[min+1] = temp;
+            }
+        }
+    }
+}
+#+end_src

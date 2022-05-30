@@ -8,6 +8,7 @@
 - [[./algorithms/binary-search.org][Binary Search]] (cpp)
   + Iterative
   + Recursive
+- [[./algorithms/bubble-sort.org][Bubble Sort]] (cpp)
 - [[./algorithms/factorial.org][Factorial]] (cpp)
   + Iterative
   + Recursive
