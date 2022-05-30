@@ -4,6 +4,7 @@
 - [[#algorithms][Algorithms]]
 - [[#data-structures][Data Structures]]
 - [[#effects][Effects]]
+- [[#solvers][Solvers]]
 
 * [[./algorithms][Algorithms]]
 - [[./algorithms/binary-search.org][Binary Search]] (cpp)
@@ -17,3 +18,5 @@
 * [[./data-structures.org][Data Structures]]
 * [[./effects/][Effects]]
 - [[./effects/write-backwards.org][Write Backwards]] (cpp)
+* [[./solvers/][Solvers]]
+- [[./solvers/towers-of-hanoi.org][Towers of Hanoi]] (cpp)
