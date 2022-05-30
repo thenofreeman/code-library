@@ -1,7 +1,11 @@
 #+TITLE: Readme
 
+* Contents :toc:
+- [[#algorithms][Algorithms]]
+- [[#data-structures][Data Structures]]
+
 * Algorithms
-** Binary Search (Cpp)
-*** Iterative
-*** Recursive
+- Binary Search (Cpp)
+  + Iterative
+  + Recursive
 * Data Structures
