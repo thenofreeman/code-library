@@ -18,5 +18,10 @@
 * [[./data-structures/][Data Structures]]
 * [[./effects/][Effects]]
 - [[./effects/write-backwards.org][Write Backwards]] (cpp)
+- [[./effects/modify-string.org][Modify String]] (cpp)
+- [[./effects/check-case.org][Check Case]] (cpp)
+- [[./effects/to-upper-case.org][To Upper Case]] (cpp)
+- [[./effects/to-lower-case.org][To Lower Case]] (cpp)
+- [[./effects/flip-case.org][Flip Case]] (cpp)
 * [[./solvers/][Solvers]]
 - [[./solvers/towers-of-hanoi.org][Towers of Hanoi]] (cpp)

@@ -1,0 +1,22 @@
+#+TITLE: Flip Case
+
+* Contents :toc:
+- [[#pseudocode][Pseudocode]]
+- [[#cpp][Cpp]]
+
+* Pseudocode
+* Cpp
+
+#+name: flip-case-cpp
+#+begin_src C++ :main no
+char flip(const char& c)
+{
+    viso::Case case_c {viso::checkCase(c)};
+    if (case_c == UPPERCASE)
+        return viso::lower(c);
+    if (case_c == LOWERCASE)
+        return viso::upper(c);
+    else
+        return c;
+}
+#+end_src

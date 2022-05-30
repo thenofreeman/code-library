@@ -1,0 +1,16 @@
+#+TITLE: To Lower Case
+
+* Contents :toc:
+- [[#pseudocode][Pseudocode]]
+- [[#cpp][Cpp]]
+
+* Pseudocode
+* Cpp
+
+#+name: to-lower-case-cpp
+#+begin_src C++ :main no
+char lower(const char& c)
+{
+    return (viso::checkCase(c) == UPPERCASE ? c + 32 : c);
+}
+#+end_src
