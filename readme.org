@@ -1,0 +1,7 @@
+#+TITLE: Readme
+
+* Algorithms
+** Binary Search ([[./algorithms/binary-search.org::cpp][Cpp]])
+*** Iterative
+*** Recursive
+* Data Structures
