@@ -8,4 +8,7 @@
 - [[./algorithms/binary-search.org][Binary Search]] (cpp)
   + Iterative
   + Recursive
+- [[./algorithms/factorial.org][Factorial]] (cpp)
+  + Iterative
+  + Recursive
 * [[./data-structures.org][Data Structures]]

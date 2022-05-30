@@ -1,0 +1,48 @@
+#+title: Factorial
+
+* Pseudocode
+* C++
+** Iterative
+
+#+name: factorial-iterative-cpp
+#+begin_src C++ :main no
+// #include <stdexcept>
+int factorialIterative(const int& num)
+{
+    if (num < 0)
+        throw std::invalid_argument("Argument to factorialRecursive() must be nonnegative.");
+
+    int fact{1};
+    int i{1};
+
+    while (i <= num)
+        fact *= i++;
+
+    return fact;
+}
+#+end_src
+
+** Recursive
+
+#+name: factorial-recurvise-cpp
+#+begin_src C++ :main no
+// #include <stdexcept>
+int factorialRecursive(const int& num)
+{
+    if (num < 0)
+        throw std::invalid_argument("Argument to factorialRecursive() must be nonnegative.");
+
+    return factorialRecursiveHelper(num);
+}
+#+end_src
+
+#+name: factorial-recurvise-helper-cpp
+#+begin_src C++ :main no
+int factorialRecursiveHelper(const int& num)
+{
+    if (num == 0)
+        return 1;
+
+    return num * factorialRecursiveHelper(num-1);
+}
+#+end_src
