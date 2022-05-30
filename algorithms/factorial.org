@@ -1,5 +1,11 @@
 #+title: Factorial
 
+* Contents :toc:
+- [[#pseudocode][Pseudocode]]
+- [[#c][C++]]
+  - [[#iterative][Iterative]]
+  - [[#recursive][Recursive]]
+
 * Pseudocode
 * C++
 ** Iterative
