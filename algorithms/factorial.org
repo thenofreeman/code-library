@@ -2,12 +2,12 @@
 
 * Contents :toc:
 - [[#pseudocode][Pseudocode]]
-- [[#c][C++]]
+- [[#cpp][Cpp]]
   - [[#iterative][Iterative]]
   - [[#recursive][Recursive]]
 
 * Pseudocode
-* C++
+* Cpp
 ** Iterative
 
 #+name: factorial-iterative-cpp
