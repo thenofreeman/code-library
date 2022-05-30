@@ -1,4 +1,4 @@
-#+TITLE: Readme
+#+TITLE: Code Library
 
 * Contents :toc:
 - [[#algorithms][Algorithms]]
