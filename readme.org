@@ -19,6 +19,8 @@
 * [[./data-structures/][Data Structures]]
 * [[./exercises/][Exercises]]
 - [[./exercises/fizzbuzz.org][FizzBuzz]] (cpp, js)
+- [[./exercises/multiples-of-3-and-5.org][Multiples of 3 and 5]]
+- [[./exercises/100-doors.org][100 Doors]]
 * [[./effects/][Effects]]
 - [[./effects/write-backwards.org][Write Backwards]] (cpp)
 - [[./effects/modify-string.org][Modify String]] (cpp)
