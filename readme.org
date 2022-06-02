@@ -3,6 +3,7 @@
 * Contents :toc:
 - [[#algorithms][Algorithms]]
 - [[#data-structures][Data Structures]]
+- [[#exercises][Exercises]]
 - [[#effects][Effects]]
 - [[#solvers][Solvers]]
 
@@ -16,6 +17,8 @@
   + Recursive
 - [[./algorithms/selection-sort.org][Selection Sort]] (cpp)
 * [[./data-structures/][Data Structures]]
+* [[./exercises/][Exercises]]
+- [[./exercises/fizzbuzz.org][FizzBuzz]] (cpp, js)
 * [[./effects/][Effects]]
 - [[./effects/write-backwards.org][Write Backwards]] (cpp)
 - [[./effects/modify-string.org][Modify String]] (cpp)
