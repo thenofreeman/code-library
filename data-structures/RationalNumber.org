@@ -1,0 +1,115 @@
+#+title: Rational Number
+
+* Contents :toc:
+- [[#cpp][Cpp]]
+  - [[#rationalh][Rational.h]]
+  - [[#rationalcpp][Rational.cpp]]
+
+* Cpp
+** Rational.h
+
+#+begin_src C++
+#pragma once
+
+#include <iostream>
+#include <string>
+
+namespace math {
+
+class Rational
+{
+public:
+    Rational(const int& n, const int& d);
+    Rational(const Rational& dest);
+
+    Rational reduce() const;
+
+    int getNumerator() const;
+    int getDenominator() const;
+
+    friend Rational operator*(Rational lhs, const Rational& rhs)
+    {
+        int numerator = lhs.getNumerator() * rhs.getNumerator();
+        int denominator = lhs.getDenominator() * rhs.getDenominator();
+
+        return Rational(numerator, denominator);
+    }
+
+    // TODO: make not do int division
+    friend Rational operator/(Rational lhs, const Rational& rhs)
+    {
+        int numerator = lhs.getNumerator() / rhs.getNumerator();
+        int denominator = lhs.getDenominator() / rhs.getDenominator();
+
+        return Rational(numerator, denominator);
+    }
+
+    friend Rational operator-(Rational lhs, const Rational& rhs)
+    {
+        int numerator = lhs.getNumerator() - rhs.getNumerator();
+        int denominator = lhs.getDenominator() - rhs.getDenominator();
+
+        return Rational(numerator, denominator);
+    }
+
+    friend std::ostream& operator<<(std::ostream& os, const Rational& r)
+    {
+        os << r.getNumerator() << "/" << r.getDenominator();
+        return os;
+    }
+
+    friend Rational operator+(Rational lhs, const Rational& rhs)
+    {
+        int numerator = lhs.getNumerator() + rhs.getNumerator();
+        int denominator = lhs.getDenominator() + rhs.getDenominator();
+
+        return Rational(numerator, denominator);
+    }
+
+    std::string toLaTeX() const;
+
+private:
+    int m_numerator;
+    int m_denominator;
+
+};
+
+}
+#+end_src
+** Rational.cpp
+
+#+begin_src C++
+#include "Rational.h"
+
+#include <string>
+
+namespace math {
+
+Rational::Rational(const int& n, const int& d)
+    : m_numerator{n}, m_denominator{d}
+{ }
+
+Rational::Rational(const Rational& dest)
+    : m_numerator{dest.getNumerator()}, m_denominator{getDenominator()}
+{ }
+
+// TODO: do it
+Rational Rational::reduce() const
+{
+    Rational r = *this;
+
+    return r;
+}
+
+int Rational::getNumerator() const
+{
+    return m_numerator;
+}
+
+int Rational::getDenominator() const
+{
+    return m_denominator;
+}
+
+}
+#+end_src
