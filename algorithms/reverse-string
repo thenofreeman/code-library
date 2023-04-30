@@ -1,0 +1,21 @@
+#+title: Reverse String
+
+* Contents :toc:
+- [[#code][Code]]
+  - [[#c][C++]]
+
+* Code
+** C++
+
+#+name: write-string-backwards-cpp
+#+begin_src C++ :main no
+#include <string>
+
+std::string writeBackwards(std::string str)
+{
+    size_t length{str.size()};
+
+    return (length > 0) ?
+        (str.substr(length-1, 1) + writeBackwards(str.substr(0, length-1))) : "";
+}
+#+end_src
